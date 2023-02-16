@@ -66,7 +66,7 @@ def binary_search(array, element, left, right):
         else:
             return binary_search(array, element, middle + 1, right)
     except IndexError:
-        return 'Число выходит за рамки списка, введите друшое число.'
+        return 'Число выходит за рамки списка, введите другое число.'
 
 # Устанавливаем номер позиции элемента, который меньше введенного пользователем числа,
 # а следующий за ним больше или равен этому числу.
